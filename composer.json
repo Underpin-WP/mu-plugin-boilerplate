@@ -1,0 +1,12 @@
+{
+    "extra": {
+        "installer-paths": {
+            "vendor/{$vendor}/{$name}": [
+                "type:wordpress-muplugin"
+            ]
+        }
+    },
+    "require": {
+        "underpin/underpin": "^1.3"
+    }
+}
