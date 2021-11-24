@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4351e7bea702917b16dec9f77e1d66c8",
+    "content-hash": "d1e3458be6c438fd08b44a3694805418",
     "packages": [
         {
             "name": "composer/installers",
@@ -158,143 +158,27 @@
             "time": "2021-09-13T08:19:44+00:00"
         },
         {
-            "name": "underpin/cron-job-loader",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Underpin-WP/cron-job-loader.git",
-                "reference": "2676e465f934e883d8fba7707e3c2b34d7413066"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Underpin-WP/cron-job-loader/zipball/2676e465f934e883d8fba7707e3c2b34d7413066",
-                "reference": "2676e465f934e883d8fba7707e3c2b34d7413066",
-                "shasum": ""
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "cron-jobs.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Alex Standiford",
-                    "email": "a@alexstandiford.com"
-                }
-            ],
-            "description": "Cron Job Loader for Underpin",
-            "support": {
-                "issues": "https://github.com/Underpin-WP/cron-job-loader/issues",
-                "source": "https://github.com/Underpin-WP/cron-job-loader/tree/1.0.0"
-            },
-            "time": "2021-05-11T18:35:25+00:00"
-        },
-        {
-            "name": "underpin/decision-list-loader",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Underpin-WP/decision-list-loader.git",
-                "reference": "1b17e130157e7aba4dad36e0b68f8b0f3aee0323"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Underpin-WP/decision-list-loader/zipball/1b17e130157e7aba4dad36e0b68f8b0f3aee0323",
-                "reference": "1b17e130157e7aba4dad36e0b68f8b0f3aee0323",
-                "shasum": ""
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "decision-lists.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Alex Standiford",
-                    "email": "a@alexstandiford.com"
-                }
-            ],
-            "description": "Decision List loader for Underpin",
-            "support": {
-                "issues": "https://github.com/Underpin-WP/decision-list-loader/issues",
-                "source": "https://github.com/Underpin-WP/decision-list-loader/tree/1.0.0"
-            },
-            "time": "2021-05-06T00:44:13+00:00"
-        },
-        {
-            "name": "underpin/logger-loader",
+            "name": "underpin/underpin",
             "version": "2.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Underpin-WP/logger-loader.git",
-                "reference": "713ff0ab28ac55562facc897eddc22f66536c119"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Underpin-WP/logger-loader/zipball/713ff0ab28ac55562facc897eddc22f66536c119",
-                "reference": "713ff0ab28ac55562facc897eddc22f66536c119",
-                "shasum": ""
-            },
-            "require": {
-                "underpin/cron-job-loader": "^1.0",
-                "underpin/decision-list-loader": "^1.0"
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "logger.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Alex Standiford",
-                    "email": "a@alexstandiford.com"
-                }
-            ],
-            "description": "Logger Loader for Underpin",
-            "support": {
-                "issues": "https://github.com/Underpin-WP/logger-loader/issues",
-                "source": "https://github.com/Underpin-WP/logger-loader/tree/2.0.0"
-            },
-            "time": "2021-08-05T13:06:26+00:00"
-        },
-        {
-            "name": "underpin/underpin",
-            "version": "1.3.1",
-            "source": {
-                "type": "git",
                 "url": "https://github.com/Underpin-WP/underpin.git",
-                "reference": "926cb0a236ce630766318794a42f4de9568724f9"
+                "reference": "fba1f9488edbe54ee9fac725d89109aa17b8fe76"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Underpin-WP/underpin/zipball/926cb0a236ce630766318794a42f4de9568724f9",
-                "reference": "926cb0a236ce630766318794a42f4de9568724f9",
+                "url": "https://api.github.com/repos/Underpin-WP/underpin/zipball/fba1f9488edbe54ee9fac725d89109aa17b8fe76",
+                "reference": "fba1f9488edbe54ee9fac725d89109aa17b8fe76",
                 "shasum": ""
             },
             "require": {
-                "composer/installers": "^1.10",
-                "underpin/logger-loader": "^2.0"
+                "composer/installers": "^1.10"
             },
             "type": "wordpress-muplugin",
             "autoload": {
-                "files": [
-                    "Underpin.php"
-                ]
+                "psr-4": {
+                    "Underpin\\": "lib/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -309,9 +193,9 @@
             "description": "Underpin WordPress framework",
             "support": {
                 "issues": "https://github.com/Underpin-WP/underpin/issues",
-                "source": "https://github.com/Underpin-WP/underpin/tree/1.3.1"
+                "source": "https://github.com/Underpin-WP/underpin/tree/2.0.0"
             },
-            "time": "2021-08-05T13:06:29+00:00"
+            "time": "2021-11-23T16:20:56+00:00"
         }
     ],
     "packages-dev": [],
